@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Databases and local data
+*.db
+*.sqlite
+*.sqlite3
+data/
+storage/
+models/
+chroma_db/
+
+# Generated files
+outputs/*
+!outputs/.gitkeep
+reports/
+*.csv
+*.xlsx
+*.jsonl
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
